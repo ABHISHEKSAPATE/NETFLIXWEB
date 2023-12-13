@@ -1,0 +1,258 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:ital,wght@0,400;0,600;1,400;1,900&family=Black+Ops+One&family=Domine:wght@400;500;600&family=Josefin+Sans:wght@600&family=Martel:wght@400;600;700;800;900&family=Merriweather:ital,wght@1,900&family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,200;0,300;0,400;0,800;0,900;1,400&family=Rajdhani:wght@300;400&family=Rammetto+One&family=Roboto:wght@100;700&family=Young+Serif&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type:none;
+scroll-behavior:smooth;
+
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+/* <!------------------------------------------HEADER---------------------------> */
+.navbar{
+  width: 100%;
+  height: 100px;
+ 
+}
+
+.headersec{
+    width: 100%;
+   
+    padding:30px;
+   height: 100%;
+    background-image: url(images/BGNETFLIX.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.hii{
+    display: flex;
+    justify-content: end;
+}
+
+.textbox{
+    position: absolute;
+    left: 40%;
+}
+.main{
+    position: relative;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+
+
+.textsec{
+    padding-top: 100px;
+}
+.textinput{
+    width: 20%;
+}
+
+/*----------------------------------tv section1----------------------------*/
+.div2{
+    position: relative;
+  }
+  
+  
+  
+  .video{
+    position: absolute;
+    bottom: 21%;
+    left: 16%;
+    width: 69%;
+    z-index: -5;
+  }
+  /* .video video{
+    width: 100%;
+  } */
+  
+  .videoclass{
+    padding-top: 2%;
+  }
+  
+  .textpart{
+    padding-top: 8%;
+  }
+  
+  .heading2{
+    font-size:200%;
+    font-weight: bolder;
+    padding-top: 15%;
+  }
+  
+  .tv{
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+  }
+  
+  
+  
+  
+
+.videoclass2{
+    padding-top: 2%;
+}
+
+
+.div2{
+    position: relative;
+}
+
+
+
+.video2{
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+    width: 58%;
+    z-index: -5;
+}
+.video2 video{
+    width: 100%;
+}
+
+
+
+.heading3 {
+font-weight: bolder;
+font-size: 180%;
+}
+
+
+/*----------------------------------------ACCORDIAN-----------------------------------------*/
+.container1{
+	width: 90%;
+	max-width: 1240px;
+	margin: 50px auto;
+	padding: 20px;
+}
+
+.accordion {
+  cursor: pointer;
+    padding: 15px 20px 15px 0;
+    width: 100%;
+    border: 1px solid #2d2d2d;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.8rem;
+  background-color:#2d2d2d;
+    
+}
+	
+ .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 30px;
+  color:white;
+  float: right;
+  margin-left: 5px;
+}
+
+ .active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+  .active, .accordion:hover {
+  font-weight: 500;
+}
+
+ .panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #2d2d2d;
+  color: white;
+}
+	
+ .panel p{
+  padding: 20px;
+  font-size: 1.6rem;
+}
+
+.panel ul{
+  margin: 40px 0;
+}
+
+.panel ul > li{
+  font-size: 1.4rem;
+}
+
+/*---------------------------------FOOTER------------------------*/
+
+.ancor{
+    color: white;
+}
+
+
+.languagebt{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.textinput{
+    border-radius: 8px;
+    padding-top: 20px
+}
+
+
+/* 
+<!-----------------------------------------MEDIA QUERY----------------------------------------> */
+
+@media only screen and (max-width:793px) and (min-width:513px) {
+  .img1{
+     
+     width: 100px;
+  }
+}
+
+@media only screen and (max-width:500px) and (min-width:300px) {
+  .img1{
+     
+     width: 70px;
+  }
+
+  .languagebt{
+     
+    font-size: 10px;
+ }
+
+ .languagebt2{
+     
+  font-size: 10px;
+  padding-top: 10px;
+}
+}
+
+
+
+@media only screen and (max-width:602px) and (min-width:465px) {
+  .accordion{
+     
+     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:465px) and (min-width:355px) {
+  .accordion{
+     
+     font-size: 13px;
+  }
+}
